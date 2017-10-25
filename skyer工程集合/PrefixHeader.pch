@@ -1,0 +1,19 @@
+//
+//  PrefixHeader.pch
+//  skyer工程集合
+//
+//  Created by SoKing on 17/3/14.
+//  Copyright © 2017年 skyer. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+#import "SkyerMacro.h"
+#import "SkyerViewController.h"
+#import "SkyerSingleton.h"
+#endif /* PrefixHeader_pch */

@@ -1,0 +1,983 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BF7DD8078F9162A8B1ACF1C /* libPods-skyer工程集合.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D1B56FFDB4F8047DC575F22 /* libPods-skyer工程集合.a */; };
+		B6074D3D1EEA4D5300129A3C /* SingletonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6074D3C1EEA4D5300129A3C /* SingletonViewController.m */; };
+		B6074D401EEA4F5100129A3C /* TestSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = B6074D3F1EEA4F5100129A3C /* TestSingleton.m */; };
+		B6125D8E1EA07CA30047576E /* WIFIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6125D8D1EA07CA30047576E /* WIFIViewController.m */; };
+		B6158E611EC3FEF300BC2196 /* PageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6158E601EC3FEF300BC2196 /* PageViewController.m */; };
+		B6158E671EC4014E00BC2196 /* SkChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6158E641EC4014E00BC2196 /* SkChildViewController.m */; };
+		B6158E681EC4014E00BC2196 /* SkScollPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6158E661EC4014E00BC2196 /* SkScollPageView.m */; };
+		B61E24AE1ECD98570080DD15 /* SkyerNSTimerTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B61E24AD1ECD98570080DD15 /* SkyerNSTimerTool.m */; };
+		B61E24B11ECD9AB70080DD15 /* TimerUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B61E24B01ECD9AB70080DD15 /* TimerUserViewController.m */; };
+		B626D37D1E7FAA1B004F9078 /* PeripheralInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B626D37C1E7FAA1B004F9078 /* PeripheralInfo.m */; };
+		B62AB3371E889EC300F9979B /* SkyerCircularSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = B62AB3361E889EC300F9979B /* SkyerCircularSlider.m */; };
+		B62AB33B1E889F5500F9979B /* ProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B62AB33A1E889F5500F9979B /* ProgressViewController.m */; };
+		B63174141ED2B0EF00F46D68 /* VoiceTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B63174131ED2B0EF00F46D68 /* VoiceTool.m */; };
+		B63174181ED2B4F600F46D68 /* VoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B63174171ED2B4F600F46D68 /* VoiceViewController.m */; };
+		B631741A1ED2BA3400F46D68 /* Alarm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B63174191ED2BA3400F46D68 /* Alarm.mp3 */; };
+		B63BFD531EC595DC00FB0146 /* SkScollPageTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = B63BFD521EC595DC00FB0146 /* SkScollPageTitleView.m */; };
+		B646AA771F30300500D49753 /* LearnRunTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B646AA761F30300500D49753 /* LearnRunTimeViewController.m */; };
+		B646AA7A1F30312100D49753 /* UIViewController+LogViewName.m in Sources */ = {isa = PBXBuildFile; fileRef = B646AA791F30312100D49753 /* UIViewController+LogViewName.m */; };
+		B646AA801F30374D00D49753 /* UIButton+ClickBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = B646AA7F1F30374D00D49753 /* UIButton+ClickBlock.m */; };
+		B6493AC11ECC2B50008B0862 /* SkyerGetVisibleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6493AC01ECC2B50008B0862 /* SkyerGetVisibleViewController.m */; };
+		B64E93B71F6A6E08004767D6 /* UIButton+ClickBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = B64E93B61F6A6E07004767D6 /* UIButton+ClickBlock.m */; };
+		B657435C1EA6F47000F97594 /* JQFMDB.m in Sources */ = {isa = PBXBuildFile; fileRef = B657435B1EA6F47000F97594 /* JQFMDB.m */; };
+		B65743601EA6FACC00F97594 /* FMDBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B657435F1EA6FACC00F97594 /* FMDBViewController.m */; };
+		B65743631EA6FAD400F97594 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = B65743621EA6FAD400F97594 /* Person.m */; };
+		B66C7ACD1F627CCE001C1FA8 /* NSObject+userInfoDic.m in Sources */ = {isa = PBXBuildFile; fileRef = B66C7ACC1F627CCE001C1FA8 /* NSObject+userInfoDic.m */; };
+		B67CBC421E7912A500C7D1DE /* MoreModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B67CBC411E7912A500C7D1DE /* MoreModel.m */; };
+		B67CBC4B1E7925C000C7D1DE /* address.plist in Resources */ = {isa = PBXBuildFile; fileRef = B67CBC451E7925C000C7D1DE /* address.plist */; };
+		B67CBC4C1E7925C000C7D1DE /* CityPicker.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B67CBC461E7925C000C7D1DE /* CityPicker.storyboard */; };
+		B67CBC4D1E7925C000C7D1DE /* CityPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B67CBC481E7925C000C7D1DE /* CityPickerViewController.m */; };
+		B67CBC4E1E7925C000C7D1DE /* SkyerCityPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = B67CBC4A1E7925C000C7D1DE /* SkyerCityPicker.m */; };
+		B67CBC521E7946EE00C7D1DE /* BLEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B67CBC511E7946EE00C7D1DE /* BLEViewController.m */; };
+		B6819F751EDE95AA006F3F87 /* BlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6819F741EDE95AA006F3F87 /* BlockViewController.m */; };
+		B6819F781EDE9963006F3F87 /* Black2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6819F771EDE9963006F3F87 /* Black2ViewController.m */; };
+		B69036D11EDFAFA600899034 /* SkyerUnlimitedBackstageLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = B69036D01EDFAFA600899034 /* SkyerUnlimitedBackstageLocation.m */; };
+		B6CA980D1EA5ED7F00A3C4B0 /* OutViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6CA980C1EA5ED7F00A3C4B0 /* OutViewViewController.m */; };
+		B6CA98101EA5EDBA00A3C4B0 /* ShowUITableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6CA980F1EA5EDBA00A3C4B0 /* ShowUITableView.m */; };
+		B6CAB1AD1E6FD9E800658C42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6CAB1AC1E6FD9E800658C42 /* main.m */; };
+		B6CAB1B01E6FD9E800658C42 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6CAB1AF1E6FD9E800658C42 /* AppDelegate.m */; };
+		B6CAB1B81E6FD9E800658C42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6CAB1B71E6FD9E800658C42 /* Assets.xcassets */; };
+		B6CAB1BB1E6FD9E800658C42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6CAB1B91E6FD9E800658C42 /* LaunchScreen.storyboard */; };
+		B6CAB1CC1E6FDE0400658C42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6CAB1C91E6FDE0400658C42 /* Main.storyboard */; };
+		B6CAB1CD1E6FDE0400658C42 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6CAB1CB1E6FDE0400658C42 /* ViewController.m */; };
+		B6CAB1D31E6FE30500658C42 /* MsonryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6CAB1D21E6FE30500658C42 /* MsonryViewController.m */; };
+		B6CAB1FC1E6FE50400658C42 /* Msonry1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6CAB1FB1E6FE50400658C42 /* Msonry1ViewController.m */; };
+		B6CAB1FF1E6FE6A000658C42 /* Msonry2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6CAB1FE1E6FE6A000658C42 /* Msonry2ViewController.m */; };
+		B6CAB2021E6FEA3800658C42 /* Msonry3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6CAB2011E6FEA3800658C42 /* Msonry3ViewController.m */; };
+		B6CAB2051E6FEECD00658C42 /* Msonry4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6CAB2041E6FEECD00658C42 /* Msonry4ViewController.m */; };
+		B6CB0E841F989B3F00BDB563 /* AnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6CB0E831F989B3F00BDB563 /* AnimationViewController.m */; };
+		B6CE54A61EB9D6790086D270 /* dataTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B6CE54A51EB9D6790086D270 /* dataTool.m */; };
+		B6CF365E1E8E54B8003BE966 /* SkyerUIFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = B6CF365D1E8E54B8003BE966 /* SkyerUIFactory.m */; };
+		B6D4F73F1ECC3EDF00E0894F /* SkyerURLSelect.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D4F73E1ECC3EDF00E0894F /* SkyerURLSelect.m */; };
+		B6E76E3C1E84C63B00B2C657 /* SkDataOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E76E3B1E84C63B00B2C657 /* SkDataOperation.m */; };
+		B6F107641E88E01900FF0FF8 /* ColumnViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F107631E88E01900FF0FF8 /* ColumnViewController.m */; };
+		B6F107671E88E03200FF0FF8 /* ColumnView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F107661E88E03200FF0FF8 /* ColumnView.m */; };
+		B6F66E7C1E763CA30009B836 /* MoreViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F66E7B1E763CA30009B836 /* MoreViewViewController.m */; };
+		B6F66E7F1E763F990009B836 /* MoreTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F66E7E1E763F990009B836 /* MoreTableViewCell.m */; };
+		B6F66E831E778AF90009B836 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = B6F66E821E778AF90009B836 /* Podfile */; };
+		B6F66E871E779AE10009B836 /* KVCTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F66E861E779AE10009B836 /* KVCTestViewController.m */; };
+		B6F66E8A1E779B1C0009B836 /* KVCHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F66E891E779B1C0009B836 /* KVCHelper.m */; };
+		B6F66E8D1E779B670009B836 /* KVCTestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F66E8C1E779B670009B836 /* KVCTestModel.m */; };
+		B6F66F371E77C58B0009B836 /* SkyerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F66F361E77C58B0009B836 /* SkyerViewController.m */; };
+		B6FACE131EA89EDB00C6081E /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FACE121EA89EDB00C6081E /* SecondViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D1B56FFDB4F8047DC575F22 /* libPods-skyer工程集合.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-skyer工程集合.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9664C360634C8E9A4A510E16 /* Pods-skyer工程集合.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-skyer工程集合.release.xcconfig"; path = "Pods/Target Support Files/Pods-skyer工程集合/Pods-skyer工程集合.release.xcconfig"; sourceTree = "<group>"; };
+		B6074D3A1EEA4D2900129A3C /* SkyerSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkyerSingleton.h; sourceTree = "<group>"; };
+		B6074D3B1EEA4D5300129A3C /* SingletonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingletonViewController.h; sourceTree = "<group>"; };
+		B6074D3C1EEA4D5300129A3C /* SingletonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingletonViewController.m; sourceTree = "<group>"; };
+		B6074D3E1EEA4F5100129A3C /* TestSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestSingleton.h; sourceTree = "<group>"; };
+		B6074D3F1EEA4F5100129A3C /* TestSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestSingleton.m; sourceTree = "<group>"; };
+		B6125D8C1EA07CA30047576E /* WIFIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WIFIViewController.h; sourceTree = "<group>"; };
+		B6125D8D1EA07CA30047576E /* WIFIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WIFIViewController.m; sourceTree = "<group>"; };
+		B6158E5F1EC3FEF300BC2196 /* PageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageViewController.h; sourceTree = "<group>"; };
+		B6158E601EC3FEF300BC2196 /* PageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageViewController.m; sourceTree = "<group>"; };
+		B6158E631EC4014E00BC2196 /* SkChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkChildViewController.h; sourceTree = "<group>"; };
+		B6158E641EC4014E00BC2196 /* SkChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkChildViewController.m; sourceTree = "<group>"; };
+		B6158E651EC4014E00BC2196 /* SkScollPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkScollPageView.h; sourceTree = "<group>"; };
+		B6158E661EC4014E00BC2196 /* SkScollPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkScollPageView.m; sourceTree = "<group>"; };
+		B61E24AC1ECD98570080DD15 /* SkyerNSTimerTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkyerNSTimerTool.h; sourceTree = "<group>"; };
+		B61E24AD1ECD98570080DD15 /* SkyerNSTimerTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkyerNSTimerTool.m; sourceTree = "<group>"; };
+		B61E24AF1ECD9AB70080DD15 /* TimerUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerUserViewController.h; sourceTree = "<group>"; };
+		B61E24B01ECD9AB70080DD15 /* TimerUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerUserViewController.m; sourceTree = "<group>"; };
+		B626D37B1E7FAA1B004F9078 /* PeripheralInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeripheralInfo.h; sourceTree = "<group>"; };
+		B626D37C1E7FAA1B004F9078 /* PeripheralInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeripheralInfo.m; sourceTree = "<group>"; };
+		B62AB3351E889EC300F9979B /* SkyerCircularSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkyerCircularSlider.h; sourceTree = "<group>"; };
+		B62AB3361E889EC300F9979B /* SkyerCircularSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkyerCircularSlider.m; sourceTree = "<group>"; };
+		B62AB3391E889F5500F9979B /* ProgressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressViewController.h; sourceTree = "<group>"; };
+		B62AB33A1E889F5500F9979B /* ProgressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressViewController.m; sourceTree = "<group>"; };
+		B63174121ED2B0EF00F46D68 /* VoiceTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoiceTool.h; sourceTree = "<group>"; };
+		B63174131ED2B0EF00F46D68 /* VoiceTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoiceTool.m; sourceTree = "<group>"; };
+		B63174161ED2B4F600F46D68 /* VoiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoiceViewController.h; sourceTree = "<group>"; };
+		B63174171ED2B4F600F46D68 /* VoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoiceViewController.m; sourceTree = "<group>"; };
+		B63174191ED2BA3400F46D68 /* Alarm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Alarm.mp3; sourceTree = "<group>"; };
+		B63BFD511EC595DC00FB0146 /* SkScollPageTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkScollPageTitleView.h; sourceTree = "<group>"; };
+		B63BFD521EC595DC00FB0146 /* SkScollPageTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkScollPageTitleView.m; sourceTree = "<group>"; };
+		B646AA751F30300500D49753 /* LearnRunTimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LearnRunTimeViewController.h; sourceTree = "<group>"; };
+		B646AA761F30300500D49753 /* LearnRunTimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LearnRunTimeViewController.m; sourceTree = "<group>"; };
+		B646AA781F30312100D49753 /* UIViewController+LogViewName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LogViewName.h"; sourceTree = "<group>"; };
+		B646AA791F30312100D49753 /* UIViewController+LogViewName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LogViewName.m"; sourceTree = "<group>"; };
+		B646AA7E1F30374D00D49753 /* UIButton+ClickBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ClickBlock.h"; sourceTree = "<group>"; };
+		B646AA7F1F30374D00D49753 /* UIButton+ClickBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ClickBlock.m"; sourceTree = "<group>"; };
+		B6493ABF1ECC2B50008B0862 /* SkyerGetVisibleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkyerGetVisibleViewController.h; sourceTree = "<group>"; };
+		B6493AC01ECC2B50008B0862 /* SkyerGetVisibleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkyerGetVisibleViewController.m; sourceTree = "<group>"; };
+		B64E93B51F6A6E07004767D6 /* UIButton+ClickBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ClickBlock.h"; sourceTree = "<group>"; };
+		B64E93B61F6A6E07004767D6 /* UIButton+ClickBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ClickBlock.m"; sourceTree = "<group>"; };
+		B657435A1EA6F47000F97594 /* JQFMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQFMDB.h; sourceTree = "<group>"; };
+		B657435B1EA6F47000F97594 /* JQFMDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQFMDB.m; sourceTree = "<group>"; };
+		B657435E1EA6FACC00F97594 /* FMDBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDBViewController.h; sourceTree = "<group>"; };
+		B657435F1EA6FACC00F97594 /* FMDBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDBViewController.m; sourceTree = "<group>"; };
+		B65743611EA6FAD400F97594 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		B65743621EA6FAD400F97594 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		B66C7ACB1F627CCE001C1FA8 /* NSObject+userInfoDic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+userInfoDic.h"; sourceTree = "<group>"; };
+		B66C7ACC1F627CCE001C1FA8 /* NSObject+userInfoDic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+userInfoDic.m"; sourceTree = "<group>"; };
+		B67CBC401E7912A500C7D1DE /* MoreModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreModel.h; sourceTree = "<group>"; };
+		B67CBC411E7912A500C7D1DE /* MoreModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreModel.m; sourceTree = "<group>"; };
+		B67CBC451E7925C000C7D1DE /* address.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = address.plist; sourceTree = "<group>"; };
+		B67CBC461E7925C000C7D1DE /* CityPicker.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CityPicker.storyboard; sourceTree = "<group>"; };
+		B67CBC471E7925C000C7D1DE /* CityPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityPickerViewController.h; sourceTree = "<group>"; };
+		B67CBC481E7925C000C7D1DE /* CityPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityPickerViewController.m; sourceTree = "<group>"; };
+		B67CBC491E7925C000C7D1DE /* SkyerCityPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkyerCityPicker.h; sourceTree = "<group>"; };
+		B67CBC4A1E7925C000C7D1DE /* SkyerCityPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkyerCityPicker.m; sourceTree = "<group>"; };
+		B67CBC501E7946EE00C7D1DE /* BLEViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEViewController.h; sourceTree = "<group>"; };
+		B67CBC511E7946EE00C7D1DE /* BLEViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEViewController.m; sourceTree = "<group>"; };
+		B6819F731EDE95AA006F3F87 /* BlockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockViewController.h; sourceTree = "<group>"; };
+		B6819F741EDE95AA006F3F87 /* BlockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockViewController.m; sourceTree = "<group>"; };
+		B6819F761EDE9963006F3F87 /* Black2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Black2ViewController.h; sourceTree = "<group>"; };
+		B6819F771EDE9963006F3F87 /* Black2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Black2ViewController.m; sourceTree = "<group>"; };
+		B69036CF1EDFAFA600899034 /* SkyerUnlimitedBackstageLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkyerUnlimitedBackstageLocation.h; sourceTree = "<group>"; };
+		B69036D01EDFAFA600899034 /* SkyerUnlimitedBackstageLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkyerUnlimitedBackstageLocation.m; sourceTree = "<group>"; };
+		B6CA980B1EA5ED7F00A3C4B0 /* OutViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OutViewViewController.h; sourceTree = "<group>"; };
+		B6CA980C1EA5ED7F00A3C4B0 /* OutViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OutViewViewController.m; sourceTree = "<group>"; };
+		B6CA980E1EA5EDBA00A3C4B0 /* ShowUITableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowUITableView.h; sourceTree = "<group>"; };
+		B6CA980F1EA5EDBA00A3C4B0 /* ShowUITableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowUITableView.m; sourceTree = "<group>"; };
+		B6CAB1A81E6FD9E800658C42 /* skyer工程集合.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "skyer工程集合.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6CAB1AC1E6FD9E800658C42 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B6CAB1AE1E6FD9E800658C42 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B6CAB1AF1E6FD9E800658C42 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B6CAB1B71E6FD9E800658C42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6CAB1BA1E6FD9E800658C42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B6CAB1BC1E6FD9E800658C42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6CAB1C91E6FDE0400658C42 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B6CAB1CA1E6FDE0400658C42 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B6CAB1CB1E6FDE0400658C42 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B6CAB1D11E6FE30500658C42 /* MsonryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MsonryViewController.h; sourceTree = "<group>"; };
+		B6CAB1D21E6FE30500658C42 /* MsonryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MsonryViewController.m; sourceTree = "<group>"; };
+		B6CAB1FA1E6FE50400658C42 /* Msonry1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Msonry1ViewController.h; sourceTree = "<group>"; };
+		B6CAB1FB1E6FE50400658C42 /* Msonry1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Msonry1ViewController.m; sourceTree = "<group>"; };
+		B6CAB1FD1E6FE6A000658C42 /* Msonry2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Msonry2ViewController.h; sourceTree = "<group>"; };
+		B6CAB1FE1E6FE6A000658C42 /* Msonry2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Msonry2ViewController.m; sourceTree = "<group>"; };
+		B6CAB2001E6FEA3800658C42 /* Msonry3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Msonry3ViewController.h; sourceTree = "<group>"; };
+		B6CAB2011E6FEA3800658C42 /* Msonry3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Msonry3ViewController.m; sourceTree = "<group>"; };
+		B6CAB2031E6FEECD00658C42 /* Msonry4ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Msonry4ViewController.h; sourceTree = "<group>"; };
+		B6CAB2041E6FEECD00658C42 /* Msonry4ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Msonry4ViewController.m; sourceTree = "<group>"; };
+		B6CB0E821F989B3F00BDB563 /* AnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationViewController.h; sourceTree = "<group>"; };
+		B6CB0E831F989B3F00BDB563 /* AnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationViewController.m; sourceTree = "<group>"; };
+		B6CE54A41EB9D6790086D270 /* dataTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dataTool.h; sourceTree = "<group>"; };
+		B6CE54A51EB9D6790086D270 /* dataTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dataTool.m; sourceTree = "<group>"; };
+		B6CF365C1E8E54B8003BE966 /* SkyerUIFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkyerUIFactory.h; sourceTree = "<group>"; };
+		B6CF365D1E8E54B8003BE966 /* SkyerUIFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkyerUIFactory.m; sourceTree = "<group>"; };
+		B6D4F73D1ECC3EDF00E0894F /* SkyerURLSelect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkyerURLSelect.h; sourceTree = "<group>"; };
+		B6D4F73E1ECC3EDF00E0894F /* SkyerURLSelect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkyerURLSelect.m; sourceTree = "<group>"; };
+		B6E76E3A1E84C63B00B2C657 /* SkDataOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkDataOperation.h; sourceTree = "<group>"; };
+		B6E76E3B1E84C63B00B2C657 /* SkDataOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkDataOperation.m; sourceTree = "<group>"; };
+		B6F107621E88E01900FF0FF8 /* ColumnViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColumnViewController.h; sourceTree = "<group>"; };
+		B6F107631E88E01900FF0FF8 /* ColumnViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColumnViewController.m; sourceTree = "<group>"; };
+		B6F107651E88E03200FF0FF8 /* ColumnView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColumnView.h; sourceTree = "<group>"; };
+		B6F107661E88E03200FF0FF8 /* ColumnView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColumnView.m; sourceTree = "<group>"; };
+		B6F66E7A1E763CA30009B836 /* MoreViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreViewViewController.h; sourceTree = "<group>"; };
+		B6F66E7B1E763CA30009B836 /* MoreViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreViewViewController.m; sourceTree = "<group>"; };
+		B6F66E7D1E763F990009B836 /* MoreTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreTableViewCell.h; sourceTree = "<group>"; };
+		B6F66E7E1E763F990009B836 /* MoreTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreTableViewCell.m; sourceTree = "<group>"; };
+		B6F66E821E778AF90009B836 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B6F66E851E779AE10009B836 /* KVCTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVCTestViewController.h; sourceTree = "<group>"; };
+		B6F66E861E779AE10009B836 /* KVCTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVCTestViewController.m; sourceTree = "<group>"; };
+		B6F66E881E779B1C0009B836 /* KVCHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVCHelper.h; sourceTree = "<group>"; };
+		B6F66E891E779B1C0009B836 /* KVCHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVCHelper.m; sourceTree = "<group>"; };
+		B6F66E8B1E779B670009B836 /* KVCTestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVCTestModel.h; sourceTree = "<group>"; };
+		B6F66E8C1E779B670009B836 /* KVCTestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVCTestModel.m; sourceTree = "<group>"; };
+		B6F66E941E77C52F0009B836 /* SkyerMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkyerMacro.h; sourceTree = "<group>"; };
+		B6F66F351E77C58B0009B836 /* SkyerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkyerViewController.h; sourceTree = "<group>"; };
+		B6F66F361E77C58B0009B836 /* SkyerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkyerViewController.m; sourceTree = "<group>"; };
+		B6F66F481E77F4EC0009B836 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		B6FACE111EA89EDB00C6081E /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		B6FACE121EA89EDB00C6081E /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		E8952AF9D647D841FD3D95B6 /* Pods-skyer工程集合.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-skyer工程集合.debug.xcconfig"; path = "Pods/Target Support Files/Pods-skyer工程集合/Pods-skyer工程集合.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6CAB1A51E6FD9E800658C42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BF7DD8078F9162A8B1ACF1C /* libPods-skyer工程集合.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6FED0CFA9E510CB3CD6CA9ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D1B56FFDB4F8047DC575F22 /* libPods-skyer工程集合.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B6074D391EEA4CFF00129A3C /* 宏写的单例 */ = {
+			isa = PBXGroup;
+			children = (
+				B6074D3A1EEA4D2900129A3C /* SkyerSingleton.h */,
+				B6074D3B1EEA4D5300129A3C /* SingletonViewController.h */,
+				B6074D3C1EEA4D5300129A3C /* SingletonViewController.m */,
+				B6074D3E1EEA4F5100129A3C /* TestSingleton.h */,
+				B6074D3F1EEA4F5100129A3C /* TestSingleton.m */,
+			);
+			path = "宏写的单例";
+			sourceTree = "<group>";
+		};
+		B6125D8B1EA07C850047576E /* WIFI */ = {
+			isa = PBXGroup;
+			children = (
+				B6125D8C1EA07CA30047576E /* WIFIViewController.h */,
+				B6125D8D1EA07CA30047576E /* WIFIViewController.m */,
+			);
+			path = WIFI;
+			sourceTree = "<group>";
+		};
+		B6158E5E1EC3FEF300BC2196 /* 分页 */ = {
+			isa = PBXGroup;
+			children = (
+				B6158E5F1EC3FEF300BC2196 /* PageViewController.h */,
+				B6158E601EC3FEF300BC2196 /* PageViewController.m */,
+			);
+			path = "分页";
+			sourceTree = "<group>";
+		};
+		B6158E621EC4014E00BC2196 /* 分页显示 */ = {
+			isa = PBXGroup;
+			children = (
+				B6158E631EC4014E00BC2196 /* SkChildViewController.h */,
+				B6158E641EC4014E00BC2196 /* SkChildViewController.m */,
+				B6158E651EC4014E00BC2196 /* SkScollPageView.h */,
+				B6158E661EC4014E00BC2196 /* SkScollPageView.m */,
+				B63BFD511EC595DC00FB0146 /* SkScollPageTitleView.h */,
+				B63BFD521EC595DC00FB0146 /* SkScollPageTitleView.m */,
+			);
+			path = "分页显示";
+			sourceTree = "<group>";
+		};
+		B61E24AB1ECD98140080DD15 /* 定时器的开启和关闭 */ = {
+			isa = PBXGroup;
+			children = (
+				B61E24AF1ECD9AB70080DD15 /* TimerUserViewController.h */,
+				B61E24B01ECD9AB70080DD15 /* TimerUserViewController.m */,
+				B61E24AC1ECD98570080DD15 /* SkyerNSTimerTool.h */,
+				B61E24AD1ECD98570080DD15 /* SkyerNSTimerTool.m */,
+			);
+			path = "定时器的开启和关闭";
+			sourceTree = "<group>";
+		};
+		B62AB3341E889EC300F9979B /* 半圆进度 */ = {
+			isa = PBXGroup;
+			children = (
+				B62AB3351E889EC300F9979B /* SkyerCircularSlider.h */,
+				B62AB3361E889EC300F9979B /* SkyerCircularSlider.m */,
+			);
+			path = "半圆进度";
+			sourceTree = "<group>";
+		};
+		B62AB3381E889F3000F9979B /* 半圆进度 */ = {
+			isa = PBXGroup;
+			children = (
+				B62AB3391E889F5500F9979B /* ProgressViewController.h */,
+				B62AB33A1E889F5500F9979B /* ProgressViewController.m */,
+			);
+			path = "半圆进度";
+			sourceTree = "<group>";
+		};
+		B63174111ED2B0C300F46D68 /* 声音播放 */ = {
+			isa = PBXGroup;
+			children = (
+				B63174121ED2B0EF00F46D68 /* VoiceTool.h */,
+				B63174131ED2B0EF00F46D68 /* VoiceTool.m */,
+			);
+			path = "声音播放";
+			sourceTree = "<group>";
+		};
+		B63174151ED2B4DF00F46D68 /* 声音播放 */ = {
+			isa = PBXGroup;
+			children = (
+				B63174161ED2B4F600F46D68 /* VoiceViewController.h */,
+				B63174171ED2B4F600F46D68 /* VoiceViewController.m */,
+			);
+			path = "声音播放";
+			sourceTree = "<group>";
+		};
+		B646AA741F302FB300D49753 /* runtime的学习 */ = {
+			isa = PBXGroup;
+			children = (
+				B646AA751F30300500D49753 /* LearnRunTimeViewController.h */,
+				B646AA761F30300500D49753 /* LearnRunTimeViewController.m */,
+				B646AA781F30312100D49753 /* UIViewController+LogViewName.h */,
+				B646AA791F30312100D49753 /* UIViewController+LogViewName.m */,
+				B646AA7E1F30374D00D49753 /* UIButton+ClickBlock.h */,
+				B646AA7F1F30374D00D49753 /* UIButton+ClickBlock.m */,
+				B66C7ACB1F627CCE001C1FA8 /* NSObject+userInfoDic.h */,
+				B66C7ACC1F627CCE001C1FA8 /* NSObject+userInfoDic.m */,
+			);
+			path = "runtime的学习";
+			sourceTree = "<group>";
+		};
+		B6493ABE1ECC2B50008B0862 /* 获取当前页面 */ = {
+			isa = PBXGroup;
+			children = (
+				B6493ABF1ECC2B50008B0862 /* SkyerGetVisibleViewController.h */,
+				B6493AC01ECC2B50008B0862 /* SkyerGetVisibleViewController.m */,
+				B6D4F73D1ECC3EDF00E0894F /* SkyerURLSelect.h */,
+				B6D4F73E1ECC3EDF00E0894F /* SkyerURLSelect.m */,
+			);
+			path = "获取当前页面";
+			sourceTree = "<group>";
+		};
+		B65743591EA6F47000F97594 /* JQFMDB封装类 */ = {
+			isa = PBXGroup;
+			children = (
+				B657435A1EA6F47000F97594 /* JQFMDB.h */,
+				B657435B1EA6F47000F97594 /* JQFMDB.m */,
+			);
+			path = "JQFMDB封装类";
+			sourceTree = "<group>";
+		};
+		B657435D1EA6FA4F00F97594 /* 数据库的使用 */ = {
+			isa = PBXGroup;
+			children = (
+				B65743611EA6FAD400F97594 /* Person.h */,
+				B65743621EA6FAD400F97594 /* Person.m */,
+				B657435E1EA6FACC00F97594 /* FMDBViewController.h */,
+				B657435F1EA6FACC00F97594 /* FMDBViewController.m */,
+			);
+			path = "数据库的使用";
+			sourceTree = "<group>";
+		};
+		B67CBC431E7925C000C7D1DE /* 城市选择器 */ = {
+			isa = PBXGroup;
+			children = (
+				B67CBC441E7925C000C7D1DE /* SkyerCityPicker */,
+			);
+			path = "城市选择器";
+			sourceTree = "<group>";
+		};
+		B67CBC441E7925C000C7D1DE /* SkyerCityPicker */ = {
+			isa = PBXGroup;
+			children = (
+				B67CBC451E7925C000C7D1DE /* address.plist */,
+				B67CBC461E7925C000C7D1DE /* CityPicker.storyboard */,
+				B67CBC471E7925C000C7D1DE /* CityPickerViewController.h */,
+				B67CBC481E7925C000C7D1DE /* CityPickerViewController.m */,
+				B67CBC491E7925C000C7D1DE /* SkyerCityPicker.h */,
+				B67CBC4A1E7925C000C7D1DE /* SkyerCityPicker.m */,
+			);
+			path = SkyerCityPicker;
+			sourceTree = "<group>";
+		};
+		B67CBC4F1E7946C400C7D1DE /* BLE使用 */ = {
+			isa = PBXGroup;
+			children = (
+				B67CBC501E7946EE00C7D1DE /* BLEViewController.h */,
+				B67CBC511E7946EE00C7D1DE /* BLEViewController.m */,
+				B626D37B1E7FAA1B004F9078 /* PeripheralInfo.h */,
+				B626D37C1E7FAA1B004F9078 /* PeripheralInfo.m */,
+			);
+			path = "BLE使用";
+			sourceTree = "<group>";
+		};
+		B6819F721EDE958C006F3F87 /* Block回调 */ = {
+			isa = PBXGroup;
+			children = (
+				B6819F731EDE95AA006F3F87 /* BlockViewController.h */,
+				B6819F741EDE95AA006F3F87 /* BlockViewController.m */,
+				B6819F761EDE9963006F3F87 /* Black2ViewController.h */,
+				B6819F771EDE9963006F3F87 /* Black2ViewController.m */,
+				B64E93B51F6A6E07004767D6 /* UIButton+ClickBlock.h */,
+				B64E93B61F6A6E07004767D6 /* UIButton+ClickBlock.m */,
+			);
+			path = "Block回调";
+			sourceTree = "<group>";
+		};
+		B69036CE1EDFAFA600899034 /* 无限后台设置 */ = {
+			isa = PBXGroup;
+			children = (
+				B69036CF1EDFAFA600899034 /* SkyerUnlimitedBackstageLocation.h */,
+				B69036D01EDFAFA600899034 /* SkyerUnlimitedBackstageLocation.m */,
+			);
+			path = "无限后台设置";
+			sourceTree = "<group>";
+		};
+		B6CA980A1EA5ED5E00A3C4B0 /* 剥离UITableView */ = {
+			isa = PBXGroup;
+			children = (
+				B6CA980B1EA5ED7F00A3C4B0 /* OutViewViewController.h */,
+				B6CA980C1EA5ED7F00A3C4B0 /* OutViewViewController.m */,
+				B6CA980E1EA5EDBA00A3C4B0 /* ShowUITableView.h */,
+				B6CA980F1EA5EDBA00A3C4B0 /* ShowUITableView.m */,
+			);
+			path = "剥离UITableView";
+			sourceTree = "<group>";
+		};
+		B6CAB19F1E6FD9E700658C42 = {
+			isa = PBXGroup;
+			children = (
+				B6CAB1AA1E6FD9E800658C42 /* skyer工程集合 */,
+				B6CAB1A91E6FD9E800658C42 /* Products */,
+				E89E319673F79EFBC987FCFC /* Pods */,
+				6FED0CFA9E510CB3CD6CA9ED /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B6CAB1A91E6FD9E800658C42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6CAB1A81E6FD9E800658C42 /* skyer工程集合.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6CAB1AA1E6FD9E800658C42 /* skyer工程集合 */ = {
+			isa = PBXGroup;
+			children = (
+				B6CAB1C21E6FDC4800658C42 /* Src */,
+				B6CAB1C51E6FDC4800658C42 /* Res */,
+				B6CAB1C61E6FDC4800658C42 /* Libs */,
+				B6CAB1AE1E6FD9E800658C42 /* AppDelegate.h */,
+				B6CAB1AF1E6FD9E800658C42 /* AppDelegate.m */,
+				B6CAB1B71E6FD9E800658C42 /* Assets.xcassets */,
+				B6CAB1B91E6FD9E800658C42 /* LaunchScreen.storyboard */,
+				B6F66E821E778AF90009B836 /* Podfile */,
+				B6CAB1BC1E6FD9E800658C42 /* Info.plist */,
+				B6F66F481E77F4EC0009B836 /* PrefixHeader.pch */,
+				B6CAB1AB1E6FD9E800658C42 /* Supporting Files */,
+			);
+			path = "skyer工程集合";
+			sourceTree = "<group>";
+		};
+		B6CAB1AB1E6FD9E800658C42 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6CAB1AC1E6FD9E800658C42 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B6CAB1C21E6FDC4800658C42 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				B6CB0E811F989B1400BDB563 /* 动画学习 */,
+				B646AA741F302FB300D49753 /* runtime的学习 */,
+				B6074D391EEA4CFF00129A3C /* 宏写的单例 */,
+				B6819F721EDE958C006F3F87 /* Block回调 */,
+				B63174151ED2B4DF00F46D68 /* 声音播放 */,
+				B61E24AB1ECD98140080DD15 /* 定时器的开启和关闭 */,
+				B6158E5E1EC3FEF300BC2196 /* 分页 */,
+				B657435D1EA6FA4F00F97594 /* 数据库的使用 */,
+				B6CA980A1EA5ED5E00A3C4B0 /* 剥离UITableView */,
+				B6125D8B1EA07C850047576E /* WIFI */,
+				B6F107611E88DFFB00FF0FF8 /* 柱状图 */,
+				B62AB3381E889F3000F9979B /* 半圆进度 */,
+				B67CBC4F1E7946C400C7D1DE /* BLE使用 */,
+				B6F66E841E779ABC0009B836 /* KVC设计模式 */,
+				B6F66E791E763C840009B836 /* 试试View的使用 */,
+				B6CAB1CE1E6FDE2C00658C42 /* Masonry的使用 */,
+				B6CAB1C81E6FDE0400658C42 /* 主页框架 */,
+			);
+			path = Src;
+			sourceTree = "<group>";
+		};
+		B6CAB1C51E6FDC4800658C42 /* Res */ = {
+			isa = PBXGroup;
+			children = (
+				B63174191ED2BA3400F46D68 /* Alarm.mp3 */,
+			);
+			path = Res;
+			sourceTree = "<group>";
+		};
+		B6CAB1C61E6FDC4800658C42 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				B6F66E921E77C52F0009B836 /* SkTool */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		B6CAB1C81E6FDE0400658C42 /* 主页框架 */ = {
+			isa = PBXGroup;
+			children = (
+				B6CAB1C91E6FDE0400658C42 /* Main.storyboard */,
+				B6CAB1CA1E6FDE0400658C42 /* ViewController.h */,
+				B6CAB1CB1E6FDE0400658C42 /* ViewController.m */,
+				B6F66F351E77C58B0009B836 /* SkyerViewController.h */,
+				B6F66F361E77C58B0009B836 /* SkyerViewController.m */,
+				B6FACE111EA89EDB00C6081E /* SecondViewController.h */,
+				B6FACE121EA89EDB00C6081E /* SecondViewController.m */,
+			);
+			path = "主页框架";
+			sourceTree = "<group>";
+		};
+		B6CAB1CE1E6FDE2C00658C42 /* Masonry的使用 */ = {
+			isa = PBXGroup;
+			children = (
+				B6CAB1D11E6FE30500658C42 /* MsonryViewController.h */,
+				B6CAB1D21E6FE30500658C42 /* MsonryViewController.m */,
+				B6CAB1FA1E6FE50400658C42 /* Msonry1ViewController.h */,
+				B6CAB1FB1E6FE50400658C42 /* Msonry1ViewController.m */,
+				B6CAB1FD1E6FE6A000658C42 /* Msonry2ViewController.h */,
+				B6CAB1FE1E6FE6A000658C42 /* Msonry2ViewController.m */,
+				B6CAB2001E6FEA3800658C42 /* Msonry3ViewController.h */,
+				B6CAB2011E6FEA3800658C42 /* Msonry3ViewController.m */,
+				B6CAB2031E6FEECD00658C42 /* Msonry4ViewController.h */,
+				B6CAB2041E6FEECD00658C42 /* Msonry4ViewController.m */,
+			);
+			path = "Masonry的使用";
+			sourceTree = "<group>";
+		};
+		B6CB0E811F989B1400BDB563 /* 动画学习 */ = {
+			isa = PBXGroup;
+			children = (
+				B6CB0E821F989B3F00BDB563 /* AnimationViewController.h */,
+				B6CB0E831F989B3F00BDB563 /* AnimationViewController.m */,
+			);
+			path = "动画学习";
+			sourceTree = "<group>";
+		};
+		B6CE54A31EB9D6790086D270 /* data数据处理 */ = {
+			isa = PBXGroup;
+			children = (
+				B6CE54A41EB9D6790086D270 /* dataTool.h */,
+				B6CE54A51EB9D6790086D270 /* dataTool.m */,
+			);
+			path = "data数据处理";
+			sourceTree = "<group>";
+		};
+		B6CF365B1E8E54B8003BE966 /* 控件工厂 */ = {
+			isa = PBXGroup;
+			children = (
+				B6CF365C1E8E54B8003BE966 /* SkyerUIFactory.h */,
+				B6CF365D1E8E54B8003BE966 /* SkyerUIFactory.m */,
+			);
+			path = "控件工厂";
+			sourceTree = "<group>";
+		};
+		B6E76E391E84C63B00B2C657 /* 数据缓存类 */ = {
+			isa = PBXGroup;
+			children = (
+				B6E76E3A1E84C63B00B2C657 /* SkDataOperation.h */,
+				B6E76E3B1E84C63B00B2C657 /* SkDataOperation.m */,
+			);
+			path = "数据缓存类";
+			sourceTree = "<group>";
+		};
+		B6F107611E88DFFB00FF0FF8 /* 柱状图 */ = {
+			isa = PBXGroup;
+			children = (
+				B6F107621E88E01900FF0FF8 /* ColumnViewController.h */,
+				B6F107631E88E01900FF0FF8 /* ColumnViewController.m */,
+				B6F107651E88E03200FF0FF8 /* ColumnView.h */,
+				B6F107661E88E03200FF0FF8 /* ColumnView.m */,
+			);
+			path = "柱状图";
+			sourceTree = "<group>";
+		};
+		B6F66E791E763C840009B836 /* 试试View的使用 */ = {
+			isa = PBXGroup;
+			children = (
+				B6F66E7A1E763CA30009B836 /* MoreViewViewController.h */,
+				B6F66E7B1E763CA30009B836 /* MoreViewViewController.m */,
+				B6F66E7D1E763F990009B836 /* MoreTableViewCell.h */,
+				B6F66E7E1E763F990009B836 /* MoreTableViewCell.m */,
+				B67CBC401E7912A500C7D1DE /* MoreModel.h */,
+				B67CBC411E7912A500C7D1DE /* MoreModel.m */,
+			);
+			path = "试试View的使用";
+			sourceTree = "<group>";
+		};
+		B6F66E841E779ABC0009B836 /* KVC设计模式 */ = {
+			isa = PBXGroup;
+			children = (
+				B6F66E881E779B1C0009B836 /* KVCHelper.h */,
+				B6F66E891E779B1C0009B836 /* KVCHelper.m */,
+				B6F66E851E779AE10009B836 /* KVCTestViewController.h */,
+				B6F66E861E779AE10009B836 /* KVCTestViewController.m */,
+				B6F66E8B1E779B670009B836 /* KVCTestModel.h */,
+				B6F66E8C1E779B670009B836 /* KVCTestModel.m */,
+			);
+			path = "KVC设计模式";
+			sourceTree = "<group>";
+		};
+		B6F66E921E77C52F0009B836 /* SkTool */ = {
+			isa = PBXGroup;
+			children = (
+				B69036CE1EDFAFA600899034 /* 无限后台设置 */,
+				B63174111ED2B0C300F46D68 /* 声音播放 */,
+				B6493ABE1ECC2B50008B0862 /* 获取当前页面 */,
+				B6158E621EC4014E00BC2196 /* 分页显示 */,
+				B6CE54A31EB9D6790086D270 /* data数据处理 */,
+				B65743591EA6F47000F97594 /* JQFMDB封装类 */,
+				B6CF365B1E8E54B8003BE966 /* 控件工厂 */,
+				B62AB3341E889EC300F9979B /* 半圆进度 */,
+				B6E76E391E84C63B00B2C657 /* 数据缓存类 */,
+				B67CBC431E7925C000C7D1DE /* 城市选择器 */,
+				B6F66E931E77C52F0009B836 /* iOS常用宏 */,
+			);
+			path = SkTool;
+			sourceTree = "<group>";
+		};
+		B6F66E931E77C52F0009B836 /* iOS常用宏 */ = {
+			isa = PBXGroup;
+			children = (
+				B6F66E941E77C52F0009B836 /* SkyerMacro.h */,
+			);
+			path = "iOS常用宏";
+			sourceTree = "<group>";
+		};
+		E89E319673F79EFBC987FCFC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8952AF9D647D841FD3D95B6 /* Pods-skyer工程集合.debug.xcconfig */,
+				9664C360634C8E9A4A510E16 /* Pods-skyer工程集合.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6CAB1A71E6FD9E800658C42 /* skyer工程集合 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6CAB1BF1E6FD9E800658C42 /* Build configuration list for PBXNativeTarget "skyer工程集合" */;
+			buildPhases = (
+				F24A6890259E3CC46A06FB70 /* [CP] Check Pods Manifest.lock */,
+				B6CAB1A41E6FD9E800658C42 /* Sources */,
+				B6CAB1A51E6FD9E800658C42 /* Frameworks */,
+				B6CAB1A61E6FD9E800658C42 /* Resources */,
+				E4659454C8490CF30AC428F4 /* [CP] Embed Pods Frameworks */,
+				97B3DA5F3811BD91E53707C9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "skyer工程集合";
+			productName = "skyer工程集合";
+			productReference = B6CAB1A81E6FD9E800658C42 /* skyer工程集合.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6CAB1A01E6FD9E700658C42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = skyer;
+				TargetAttributes = {
+					B6CAB1A71E6FD9E800658C42 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = F474Y7ZN3P;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B6CAB1A31E6FD9E700658C42 /* Build configuration list for PBXProject "skyer工程集合" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6CAB19F1E6FD9E700658C42;
+			productRefGroup = B6CAB1A91E6FD9E800658C42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6CAB1A71E6FD9E800658C42 /* skyer工程集合 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6CAB1A61E6FD9E800658C42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6F66E831E778AF90009B836 /* Podfile in Resources */,
+				B631741A1ED2BA3400F46D68 /* Alarm.mp3 in Resources */,
+				B67CBC4B1E7925C000C7D1DE /* address.plist in Resources */,
+				B6CAB1CC1E6FDE0400658C42 /* Main.storyboard in Resources */,
+				B67CBC4C1E7925C000C7D1DE /* CityPicker.storyboard in Resources */,
+				B6CAB1BB1E6FD9E800658C42 /* LaunchScreen.storyboard in Resources */,
+				B6CAB1B81E6FD9E800658C42 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		97B3DA5F3811BD91E53707C9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-skyer工程集合/Pods-skyer工程集合-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4659454C8490CF30AC428F4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-skyer工程集合/Pods-skyer工程集合-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F24A6890259E3CC46A06FB70 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6CAB1A41E6FD9E800658C42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B62AB3371E889EC300F9979B /* SkyerCircularSlider.m in Sources */,
+				B626D37D1E7FAA1B004F9078 /* PeripheralInfo.m in Sources */,
+				B6CA980D1EA5ED7F00A3C4B0 /* OutViewViewController.m in Sources */,
+				B6F66E8D1E779B670009B836 /* KVCTestModel.m in Sources */,
+				B63174181ED2B4F600F46D68 /* VoiceViewController.m in Sources */,
+				B62AB33B1E889F5500F9979B /* ProgressViewController.m in Sources */,
+				B6493AC11ECC2B50008B0862 /* SkyerGetVisibleViewController.m in Sources */,
+				B6CAB1CD1E6FDE0400658C42 /* ViewController.m in Sources */,
+				B6CAB1B01E6FD9E800658C42 /* AppDelegate.m in Sources */,
+				B6074D3D1EEA4D5300129A3C /* SingletonViewController.m in Sources */,
+				B6158E611EC3FEF300BC2196 /* PageViewController.m in Sources */,
+				B6CE54A61EB9D6790086D270 /* dataTool.m in Sources */,
+				B69036D11EDFAFA600899034 /* SkyerUnlimitedBackstageLocation.m in Sources */,
+				B6F66F371E77C58B0009B836 /* SkyerViewController.m in Sources */,
+				B6F107641E88E01900FF0FF8 /* ColumnViewController.m in Sources */,
+				B65743631EA6FAD400F97594 /* Person.m in Sources */,
+				B6F107671E88E03200FF0FF8 /* ColumnView.m in Sources */,
+				B6F66E8A1E779B1C0009B836 /* KVCHelper.m in Sources */,
+				B6FACE131EA89EDB00C6081E /* SecondViewController.m in Sources */,
+				B63174141ED2B0EF00F46D68 /* VoiceTool.m in Sources */,
+				B6819F751EDE95AA006F3F87 /* BlockViewController.m in Sources */,
+				B657435C1EA6F47000F97594 /* JQFMDB.m in Sources */,
+				B6CAB2051E6FEECD00658C42 /* Msonry4ViewController.m in Sources */,
+				B6125D8E1EA07CA30047576E /* WIFIViewController.m in Sources */,
+				B6F66E7C1E763CA30009B836 /* MoreViewViewController.m in Sources */,
+				B6158E681EC4014E00BC2196 /* SkScollPageView.m in Sources */,
+				B67CBC4E1E7925C000C7D1DE /* SkyerCityPicker.m in Sources */,
+				B61E24B11ECD9AB70080DD15 /* TimerUserViewController.m in Sources */,
+				B6F66E7F1E763F990009B836 /* MoreTableViewCell.m in Sources */,
+				B6074D401EEA4F5100129A3C /* TestSingleton.m in Sources */,
+				B67CBC421E7912A500C7D1DE /* MoreModel.m in Sources */,
+				B67CBC521E7946EE00C7D1DE /* BLEViewController.m in Sources */,
+				B6CAB1D31E6FE30500658C42 /* MsonryViewController.m in Sources */,
+				B6CAB2021E6FEA3800658C42 /* Msonry3ViewController.m in Sources */,
+				B61E24AE1ECD98570080DD15 /* SkyerNSTimerTool.m in Sources */,
+				B67CBC4D1E7925C000C7D1DE /* CityPickerViewController.m in Sources */,
+				B6CAB1FF1E6FE6A000658C42 /* Msonry2ViewController.m in Sources */,
+				B6CAB1FC1E6FE50400658C42 /* Msonry1ViewController.m in Sources */,
+				B6E76E3C1E84C63B00B2C657 /* SkDataOperation.m in Sources */,
+				B6F66E871E779AE10009B836 /* KVCTestViewController.m in Sources */,
+				B6CF365E1E8E54B8003BE966 /* SkyerUIFactory.m in Sources */,
+				B646AA801F30374D00D49753 /* UIButton+ClickBlock.m in Sources */,
+				B65743601EA6FACC00F97594 /* FMDBViewController.m in Sources */,
+				B646AA771F30300500D49753 /* LearnRunTimeViewController.m in Sources */,
+				B6819F781EDE9963006F3F87 /* Black2ViewController.m in Sources */,
+				B6CB0E841F989B3F00BDB563 /* AnimationViewController.m in Sources */,
+				B6CA98101EA5EDBA00A3C4B0 /* ShowUITableView.m in Sources */,
+				B6D4F73F1ECC3EDF00E0894F /* SkyerURLSelect.m in Sources */,
+				B63BFD531EC595DC00FB0146 /* SkScollPageTitleView.m in Sources */,
+				B646AA7A1F30312100D49753 /* UIViewController+LogViewName.m in Sources */,
+				B6158E671EC4014E00BC2196 /* SkChildViewController.m in Sources */,
+				B64E93B71F6A6E08004767D6 /* UIButton+ClickBlock.m in Sources */,
+				B6CAB1AD1E6FD9E800658C42 /* main.m in Sources */,
+				B66C7ACD1F627CCE001C1FA8 /* NSObject+userInfoDic.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B6CAB1B91E6FD9E800658C42 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6CAB1BA1E6FD9E800658C42 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6CAB1BD1E6FD9E800658C42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B6CAB1BE1E6FD9E800658C42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6CAB1C01E6FD9E800658C42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8952AF9D647D841FD3D95B6 /* Pods-skyer工程集合.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F474Y7ZN3P;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/PrefixHeader.pch";
+				INFOPLIST_FILE = "skyer工程集合/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.castel.skyer.skyerGather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
+			};
+			name = Debug;
+		};
+		B6CAB1C11E6FD9E800658C42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9664C360634C8E9A4A510E16 /* Pods-skyer工程集合.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F474Y7ZN3P;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/PrefixHeader.pch";
+				INFOPLIST_FILE = "skyer工程集合/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.castel.skyer.skyerGather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6CAB1A31E6FD9E700658C42 /* Build configuration list for PBXProject "skyer工程集合" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6CAB1BD1E6FD9E800658C42 /* Debug */,
+				B6CAB1BE1E6FD9E800658C42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6CAB1BF1E6FD9E800658C42 /* Build configuration list for PBXNativeTarget "skyer工程集合" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6CAB1C01E6FD9E800658C42 /* Debug */,
+				B6CAB1C11E6FD9E800658C42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6CAB1A01E6FD9E700658C42 /* Project object */;
+}
